@@ -5,7 +5,7 @@ const constants = new Constants();
 
 export class LoginPage
 {
-    emailText = "#field-email";
+    emailTextBox = "#field-email";
     passwordTextBox = "#field-password";
     logingButton = "#submit-login";
 
@@ -22,7 +22,7 @@ export class LoginPage
         cy.get(constants.pageFrame)
         .its(constants.documentBody)
         .then(cy.wrap)
-        .find(this.emailText)
+        .find(this.emailTextBox)
         .type(email)
 
         cy.wait(4000)
