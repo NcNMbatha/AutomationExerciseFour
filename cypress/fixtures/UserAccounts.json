@@ -13,7 +13,7 @@
   "email":"nhlanhla@gmail.com",
   "password":"P@ssword01",
   "dateOfBirth":"05/31/1970",
-  "gender": "Female"
+  "title": "Female"
   },
   {
   "firstName":"Bonginkosi",
@@ -21,7 +21,7 @@
   "email":"bonginkosi@gmail.com",
   "password":"P@ssword01",
   "dateOfBirth":"05/31/1970",
-  "gender": "Male"
+  "title": "Male"
   }
 ]
 
