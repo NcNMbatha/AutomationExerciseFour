@@ -1,0 +1,28 @@
+[
+  {
+  "firstName":"Sandile",
+  "lastName":"Mthiya",
+  "email":"sandile@gmail.com",
+  "password":"P@ssword01",
+  "dateOfBirth":"05/31/1970",
+  "gender": "Male"
+  },
+  {
+  "firstName":"Thuli",
+  "lastName":"Mbatha",
+  "email":"nhlanhla@gmail.com",
+  "password":"P@ssword01",
+  "dateOfBirth":"05/31/1970",
+  "gender": "Female"
+  },
+  {
+  "firstName":"Bonginkosi",
+  "lastName":"Mbatha",
+  "email":"bonginkosi@gmail.com",
+  "password":"P@ssword01",
+  "dateOfBirth":"05/31/1970",
+  "gender": "Male"
+  }
+]
+
+
