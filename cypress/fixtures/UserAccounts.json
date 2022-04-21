@@ -5,7 +5,7 @@
   "email":"sandile@gmail.com",
   "password":"P@ssword01",
   "dateOfBirth":"05/31/1970",
-  "title": "Male"
+  "title": "Mr"
   },
   {
   "firstName":"Thuli",
@@ -13,7 +13,7 @@
   "email":"nhlanhla@gmail.com",
   "password":"P@ssword01",
   "dateOfBirth":"05/31/1970",
-  "title": "Female"
+  "title": "Mrs"
   },
   {
   "firstName":"Bonginkosi",
@@ -21,7 +21,7 @@
   "email":"bonginkosi@gmail.com",
   "password":"P@ssword01",
   "dateOfBirth":"05/31/1970",
-  "title": "Male"
+  "title": "Mr"
   }
 ]
 
