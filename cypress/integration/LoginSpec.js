@@ -23,7 +23,7 @@ describe('Login Tets',()=>{
             {
                 registerPage.RegisterNewValidUser(Account[accountIndex].firstName, Account[accountIndex].lastName, 
                                                   Account[accountIndex].email, Account[accountIndex].password, 
-                                                  Account[accountIndex].dateOfBirth, Account[accountIndex].gender);
+                                                  Account[accountIndex].dateOfBirth, Account[accountIndex].title);
 
                 login.Login(Account[accountIndex].email, Account[accountIndex].password);
                 expectedTextMessage = Account[accountIndex].firstName+" "+Account[accountIndex].lastName;

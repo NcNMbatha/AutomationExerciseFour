@@ -15,7 +15,7 @@ export class RegisterPage
     saveButton = "footer > button";
     customerDataPrivacyCheckBox = "div:nth-child(8) input[type=checkbox]";
 
-    RegisterNewValidUser(firstname, lastName, email, password, dateOfBirth, gender)
+    RegisterNewValidUser(firstname, lastName, email, password, dateOfBirth, title)
     {
         cy.wait(4000)
         cy.get(constants.pageFrame)
@@ -31,7 +31,7 @@ export class RegisterPage
         .find(this.createAccountLink)
         .click()
         
-        if(gender == "Male")
+        if(title == "Mr")
         {
             cy.wait(4000)
             cy.get(constants.pageFrame)
